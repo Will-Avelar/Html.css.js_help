@@ -1,0 +1,3 @@
+:root  /*root é e mais forte que o htmml, isso garante que nenhuma cor sera sobscrita*/:root { /*root é e mais forte que o htmml, isso garante que nenhuma cor sera sobscrita*/
+    --branco: #FFF; neste caso o branco virou uma variavel que deve ser descrita da seguinte forma 
+    var(#fff); isso garante que nao teremos problemas com as cores
