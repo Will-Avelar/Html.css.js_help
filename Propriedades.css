@@ -1,3 +1,115 @@
-:root  /*root é e mais forte que o htmml, isso garante que nenhuma cor sera sobscrita*/:root { /*root é e mais forte que o htmml, isso garante que nenhuma cor sera sobscrita*/
-    --branco: #FFF; neste caso o branco virou uma variavel que deve ser descrita da seguinte forma 
-    var(#fff); isso garante que nao teremos problemas com as cores
+**********BACKGROUD**********
+
+Uma propriedade estenográfica para configurar todas as propriedades do plano de fundo em uma declaração
+background-color
+background-image
+background-repeat background-attachment
+background-position
+
+
+>background-attachment
+Especifica se uma imagem de plano de fundo é fixa ou rola com o resto da página	
+scroll
+fixed
+
+
+>background-color	
+Configura a cor do plano de fundo de um elemento	
+color-rgb
+color-hex
+color-name
+transparent
+
+
+>background-image
+Configura uma imagem como plano de fundo
+url
+none
+
+
+>background-position
+Configura a posição inicial de uma imagem de plano de fundo
+top left
+top center
+top right
+center left
+center center
+center right
+bottom left
+bottom center
+bottom right
+x-% y-%
+x-pos y-pos
+
+
+>background-repeat
+Estabelece se/como uma imagem de plano de fundo será repetida
+repeat
+repeat-x
+repeat-y
+no-repeat
+
+
+**********PROPRIEDADES DE TEXTO **********
+
+>color
+Configura a cor de um texto	
+color	
+
+>direction
+Configura a direção do texto	
+ltr
+rtl
+
+>letter-spacing
+Aumenta ou diminui o espaço entre os caracteres
+normal
+length
+
+>text-align
+Alinha o texto num elemento
+left
+right
+center
+justify
+
+>text-decoration
+Adiciona decoração ao texto	
+none
+underline
+overline
+line-through
+blink
+
+>text-indent	
+Recua a primeira linha de um texto num elemento
+length
+%
+
+>text-shadow
+none
+color
+length
+
+>text-transform
+Controla as letras em um elemento
+none
+capitalize
+uppercase
+lowercase
+
+>unicode-bidi	
+normal
+embed
+bidi-override
+
+>white-space
+Especifica como a escrita de espaços dentro de um elemento é manejada
+normal
+pre
+nowrap
+
+>word-spacing
+Aumenta ou diminui o espaço entre as palavras
+normal
+length
